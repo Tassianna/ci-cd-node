@@ -1,0 +1,13 @@
+name: Your CI_CD Workflow Name
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo Hello World
